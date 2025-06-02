@@ -1,17 +1,15 @@
 #questions
 import sqlite3 as sql
-from question_class import testq
-File = open("quetions.txt", "r")
-
-questions = File.read()
-print(questions)
 
 personality = {'p1':1, 'p2':1, 'p3':1} 
 
 name = input("ENTER YOUR NAME!")
 
-for i in questions:
-      
+scenarios = open('quetions.txt', 'r')
+print(scenarios.read())
+
+for i in scenarios:
+    print(scenarios.read())
 
 print("scenario")
 print("a")
