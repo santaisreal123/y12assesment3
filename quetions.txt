@@ -1,0 +1,10 @@
+You enter a room, there are 3 items on a table, you are able to pick one; pen; gun; phone
+There is a bubbling brook, inside lays an ancient book, it has a dark arua, WHAT DO YOU DO?; destroy it; read it; ignore it
+There is a clock tower in a town centre, its hands are moving backwards, WHY?; the clocktower is broken; its an art installation; time is moving backwards  
+You work at a loadstone factory, a new delivery of load stone material has been delivered, and you are the only one who knows, WHAT DO YOU DO?; inform your supervisor; steal it; leave it, someone else’s job
+you’ve lost your crypt key. Three likely suspects have been found, WHO DID IT?; The carpenter, he’s a known drunk and petty criminal; The shearer, he’s an antique collector and loves ornate oddities; The cobbler, he’s a jealous sod and is covetous of my bones
+Your speaking to a fortune teller, she places three tarot cards in front of you, WHICH DO YOU PICK; The Joker; The Tower; The Sun
+Your digging for gas lines in your backyard, instead you find the skeleton of a sea captain, dressed in sailors garb, HOW DID HE DIE?; surrounded by his family; On the open sea; digging for gas lines
+Your looking at a pin board for job postings, three catch your eye, WHICH DO YOU PICK?; security guard; MLM scheme intern; improv actor
+Pickled saffron, a rare delicacy, WHERE DID YOU FIND IT?; grave robbing; exotic spice market; Your supervisors office
+You’ve worked hard, you deserve a snack, WHICH DO YOU PICK?; fresh bagel; chocolate coated peanuts; hand full of spiders

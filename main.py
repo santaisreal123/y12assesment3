@@ -1,147 +1,46 @@
 #questions
 import sqlite3 as sql
 
-personality = {'p1':1, 'p2':1, 'p3':1} 
+personality = {'p1':1, 'p2':1, 'p3':1}
+
+questions_and_answers = []
 
 name = input("ENTER YOUR NAME!")
 
 scenarios = open('quetions.txt', 'r')
-print(scenarios.read())
+questions = scenarios.readlines()
 
-for i in scenarios:
-    print(scenarios.read())
-
-print("scenario")
-print("a")
-print("b")
-print("c")
-answer1 = (input("your answer? "))
-if answer1 == ("a"):
-    personality['p1'] = personality['p1'] + 1
-if answer1 == ("b"):
-    personality['p2'] = personality['p2'] + 1
-if answer1 == ("c"):
-    personality['p3'] = personality['p3'] + 1
+for question in questions:
+    question = question.strip()
+    questions_answers = question.split(";")
+    print (questions_answers[0])
+    print("")
+    a = print(questions_answers[1])
+    b = print(questions_answers[2])
+    c= print(questions_answers[3])
 
 
-print("scenario")
-print("a")
-print("b")
-print("c")
-answer2 = (input("your answer? "))
-if answer2 == ("a"):
-    personality['p1'] = personality['p1'] + 1
-if answer2 == ("b"):
-    personality['p2'] = personality['p2'] + 1
-if answer2 == ("c"):
-     personality['p3'] = personality['p3'] + 1
+    answer = (input("your answer? "))
+    if answer == "a":
+        personality["p1"] = personality["p1"] + 1
+            #temp = personality['p1']
+            #temp = temp + 1
+            #personality['p1'] = temp
+    if answer == "b":
+            personality['p2'] = personality['p2'] + 1
+    if answer == c:
+            personality['p3'] = personality['p3'] + 1
 
-print("scenario")
-print("a")
-print("b")
-print("c")
-answer3 = (input("your answer? "))
-if answer3 == ("a"):
-    personality['p1'] = personality['p1'] + 1
-if answer3 == ("b"):
-    personality['p2'] = personality['p2'] + 1
-if answer3 == ("c"):
-     personality['p3'] = personality['p3'] + 1
+    if personality["p1"] > personality["p2"] or personality["p1"] > personality["p3"]:
+        personalityResult = "P1"
 
-print("scenario")
-print("a")
-print("b")
-print("c")
-answer4 = (input("your answer? "))
-if answer4 == ("a"):
-    personality['p1'] = personality['p1'] + 1
-if answer4 == ("b"):
-    personality['p2'] = personality['p2'] + 1
-if answer4 == ("c"):
-     personality['p3'] = personality['p3'] + 1
+    elif personality["p2"] > personality["p1"] or personality["p2"] > personality["p3"]:
+        personalityResult = "P2"
 
-print("scenario")
-print("a")
-print("b")
-print("c")
-answer5 = (input("your answer? "))
-if answer5 == ("a"):
-    personality['p1'] = personality['p1'] + 1
-if answer5 == ("b"):
-    personality['p2'] = personality['p2'] + 1
-if answer5 == ("c"):
-     personality['p3'] = personality['p3'] + 1
-
-print("scenario")
-print("a")
-print("b")
-print("c")
-answer6 = (input("your answer? "))
-if answer6 == ("a"):
-    personality['p1'] = personality['p1'] + 1
-if answer6 == ("b"):
-    personality['p2'] = personality['p2'] + 1
-if answer6 == ("c"):
-     personality['p3'] = personality['p3'] + 1
-
-if personality["p1"] > personality["p2"] or personality["p1"] > personality["p3"]:
-    personalityResult = "P1"
-
-
-elif personality["p2"] > personality["p1"] or personality["p2"] > personality["p3"]:
-    personalityResult = "P2"
-
-
-elif personality["p3"] > personality["p1"] or personality["p3"] > personality["p2"]:
+    elif personality["p3"] > personality["p1"] or personality["p3"] > personality["p2"]:
         personalityResult = "P3"
 
-#sub categories
-if personality["p2"] > 1 and personality["p1"] > personality["p3"]:
-        personalityResult = "P1+P2"
 
-
-if personality["p1"] > 1 and personality["p2"] > personality["p3"]:
-        personalityResult = "P2+P1"       
-
-
-if personality["p3"] > 1 and personality["p1"] > personality["p2"]:
-        personalityResult = "P1+P3"
-
-
-if personality["p1"] > 1 and personality["p3"] > personality["p2"]:
-        personalityResult = "P3+P1"
-
-
-if personality["p3"] > 1 and personality["p2"] > personality["p1"]:
-        personalityResult = "P2+P3"
-
-
-if personality["p2"] > 1 and personality["p3"] > personality["p1"]:
-        personalityResult = "P3+P2"
-
-
-if personality["p1"] > 1 and personality["p2"] > personality["p3"]:
-        personalityResult = "P2+P1"
-
-
-if personality["p2"] > 1 and personality["p1"] > personality["p3"]:
-        personalityResult = "P1+P2"
-
-
-if personality["p2"] > 1 and personality["p3"] > personality["p1"]:
-        personalityResult = "P3+P2"
-
-
-if personality["p3"] > 1 and personality["p2"] > personality["p1"]:
-        personalityResult = "P2+P3"
-
-
-if personality["p1"] > 1 and personality["p3"] > personality["p2"]:
-        personalityResult = "P3+P1"
-
-
-if personality["p3"] > 1 and personality["p1"] > personality["p2"]:
-        personalityResult = "P1+P3"
 
 
 
