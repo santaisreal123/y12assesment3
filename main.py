@@ -1,7 +1,7 @@
 #questions
 import sqlite3 as sql
 
-personality = {'p1':1, 'p2':1, 'p3':1}
+personality = {'The Joker':1, 'The Sun':1, 'The Tower':1}
 
 questions_and_answers = []
 
@@ -10,35 +10,48 @@ name = input("ENTER YOUR NAME!")
 scenarios = open('quetions.txt', 'r')
 questions = scenarios.readlines()
 
+def personalityCheck(index):
+    if questions_answers[index] == ' J':
+        personality["The Joker"] = personality["The Joker"] +1
+    elif  questions_answers[index] == ' T':
+        personality["The Tower"] = personality["The Tower"] +1
+    elif questions_answers[index] == ' S':
+         personality["The Sun"] = personality["The Sun"] +1
+    else: 
+         print("can not record personality")
+
 for question in questions:
     question = question.strip()
     questions_answers = question.split(";")
     print (questions_answers[0])
     print("")
     a = print(questions_answers[1])
-    b = print(questions_answers[2])
-    c= print(questions_answers[3])
+    b = print(questions_answers[3])
+    c= print(questions_answers[5])
 
 
     answer = (input("your answer? "))
     if answer == "a":
-        personality["p1"] = personality["p1"] + 1
-            #temp = personality['p1']
-            #temp = temp + 1
-            #personality['p1'] = temp
+       index = 2
+       personalityCheck(index)
     if answer == "b":
-            personality['p2'] = personality['p2'] + 1
+        index = 4
+        personalityCheck(index)
     if answer == c:
-            personality['p3'] = personality['p3'] + 1
+        index = 6
+        personalityCheck(index)
+    
 
-    if personality["p1"] > personality["p2"] or personality["p1"] > personality["p3"]:
-        personalityResult = "P1"
+if personality["The Joker"] > personality["The Tower"] and personality["The Joker"] > personality["The Sun"]:
+    personalityResult = "The Joker"
 
-    elif personality["p2"] > personality["p1"] or personality["p2"] > personality["p3"]:
-        personalityResult = "P2"
+elif personality["The Sun"] > personality["The Joker"] and personality["The Sun"] > personality["The Tower"]:
+    personalityResult = "The Sun"
 
-    elif personality["p3"] > personality["p1"] or personality["p3"] > personality["p2"]:
-        personalityResult = "P3"
+elif personality["The Tower"] > personality["The Joker"] and personality["The Tower"] > personality["The Sun"]:
+    personalityResult = "The Tower"
+    
+    
 
 
 
