@@ -1,10 +1,10 @@
-You enter a room, there are 3 items on a table, you are able to pick one; pen; J; gun; S; phone; T
-There is a bubbling brook, inside lays an ancient book, it has a dark arua, WHAT DO YOU DO?; destroy it; T; read it; S; ignore it; J
-There is a clock tower in a town centre, its hands are moving backwards, WHY?; the clocktower is broken; T; its an art installation; S; time is moving backwards; J 
-You work at a loadstone factory, a new delivery of load stone material has been delivered, and you are the only one who knows, WHAT DO YOU DO?; inform your supervisor; T; steal it; S; leave it, someone else’s job; J
-you’ve lost your crypt key. Three likely suspects have been found, WHO DID IT?; The carpenter, he’s a known drunk and petty criminal; T; The shearer, he’s an antique collector and loves ornate oddities; S; The cobbler, he’s a jealous sod and is covetous of my bones; J
-Your speaking to a fortune teller, she places three tarot cards in front of you, WHICH DO YOU PICK; The Joker; S; The Tower; J; The Sun; T
-Your digging for gas lines in your backyard, instead you find the skeleton of a sea captain, dressed in sailors garb, HOW DID HE DIE?; surrounded by his family; T; On the open sea; S; digging for gas lines; J
-Your looking at a pin board for job postings, three catch your eye, WHICH DO YOU PICK?; security guard; T; MLM scheme intern; S; improv actor; J
-Pickled saffron, a rare delicacy, WHERE DID YOU FIND IT?; grave robbing; J; exotic spice market; T; Your supervisors office; S
-You’ve worked hard, you deserve a snack, WHICH DO YOU PICK?; fresh bagel; S; chocolate coated peanuts; T; hand full of spiders; J
+You enter a room, there are 3 items on a table, you are able to pick one; a.pen; J; b.gun; S; c.phone; T
+There is a bubbling brook, inside lays an ancient book, it has a dark arua, WHAT DO YOU DO?; a.destroy it; T; b.read it; S; c.ignore it; J
+There is a clock tower in a town centre, its hands are moving backwards, WHY?; b.the clocktower is broken; T; a.its an art installation; S; c.time is moving backwards; J 
+You work at a loadstone factory, a new delivery of load stone material has been delivered, and you are the only one who knows, WHAT DO YOU DO?; a.inform your supervisor; T; b.steal it; S; c.leave it, someone else’s job; J
+you’ve lost your crypt key. Three likely suspects have been found, WHO DID IT?; a.The carpenter, he’s a known drunk and petty criminal; T; b.The shearer, he’s an antique collector and loves ornate oddities; S; c.The cobbler, he’s a jealous sod and is covetous of my bones; J
+Your speaking to a fortune teller, she places three tarot cards in front of you, WHICH DO YOU PICK; a.The Joker; S; b.The Tower; J; c.The Sun; T
+Your digging for gas lines in your backyard, instead you find the skeleton of a sea captain, dressed in sailors garb, HOW DID HE DIE?; a.surrounded by his family; T; b.On the open sea; S; c.digging for gas lines; J
+Your looking at a pin board for job postings, three catch your eye, WHICH DO YOU PICK?; a.security guard; T; b.MLM scheme intern; S; c.improv actor; J
+Pickled saffron, a rare delicacy, WHERE DID YOU FIND IT?; a.grave robbing; J; b.exotic spice market; T; c.Your supervisors office; S
+You’ve worked hard, you deserve a snack, WHICH DO YOU PICK?; a.fresh bagel; S; b.chocolate coated peanuts; T; c.hand full of spiders; J

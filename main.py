@@ -1,8 +1,6 @@
 #questions
 import sqlite3 as sql
-
 personality = {'The Joker':1, 'The Sun':1, 'The Tower':1}
-
 questions_and_answers = []
 
 name = input("ENTER YOUR NAME!")
@@ -19,6 +17,7 @@ def personalityCheck(index):
          personality["The Sun"] = personality["The Sun"] +1
     else: 
          print("can not record personality")
+         
 
 for question in questions:
     question = question.strip()
@@ -29,6 +28,7 @@ for question in questions:
     b = print(questions_answers[3])
     c= print(questions_answers[5])
 
+  
 
     answer = (input("your answer? "))
     if answer == "a":
@@ -37,9 +37,11 @@ for question in questions:
     if answer == "b":
         index = 4
         personalityCheck(index)
-    if answer == c:
+    if answer == "c":
         index = 6
         personalityCheck(index)
+
+    
     
 
 if personality["The Joker"] > personality["The Tower"] and personality["The Joker"] > personality["The Sun"]:
@@ -51,8 +53,6 @@ elif personality["The Sun"] > personality["The Joker"] and personality["The Sun"
 elif personality["The Tower"] > personality["The Joker"] and personality["The Tower"] > personality["The Sun"]:
     personalityResult = "The Tower"
     
-    
-
 
 
 
